@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from aiogram.dispatcher.filters import Command
 
-API_TOKEN = os.getenv("7414576699:AAHP4eU4XQ0GkcwbmuFSFQzYVHyZOpISuBg")
+API_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
