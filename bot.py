@@ -3,14 +3,14 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from aiogram.dispatcher.filters import Command
 
-API_TOKEN = os.getenv("TELEGRAM_TOKEN")
+API_TOKEN = os.getenv("7414576699:AAHP4eU4XQ0GkcwbmuFSFQzYVHyZOpISuBg")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 tracked_words = set()
 stats = {}
-ADMIN_IDS = {123456789}  # заміни на свій ID
+ADMIN_IDS = {attwoodua}  # заміни на свій ID
 
 def is_admin(user_id):
     return user_id in ADMIN_IDS
