@@ -10,7 +10,7 @@ dp = Dispatcher(bot)
 
 tracked_words = set()
 stats = {}
-ADMIN_IDS = {123456789}  # заміни на свій ID
+ADMIN_IDS = {407178829}  # заміни на свій ID
 
 def is_admin(user_id):
     return user_id in ADMIN_IDS
